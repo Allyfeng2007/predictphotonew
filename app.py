@@ -131,7 +131,7 @@ def tts():
             "ModelType": 1,
             "VoiceType": 101001,  # 女声示例，见官方音色表
             "Codec": "mp3",
-            "SampleRate": 24000,
+            "SampleRate": 16000,
             "Speed": 0,
             "Volume": 0
         }
@@ -155,4 +155,5 @@ def routes():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80, debug=False)
+
 
